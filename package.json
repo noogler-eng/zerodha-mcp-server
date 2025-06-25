@@ -1,0 +1,18 @@
+{
+  "name": "zerodha-mcp-server",
+  "version": "1.0.0",
+  "description": "- why mcp server ?, we are using them as claude does't know the zerodha api's to tell about trend in stocks. this make the access the claude to the zerodha platform. it giving some context LLM (claude, openai, chagpt). - claude has support for MCP server (anthropic discover this). MCP server makes the connection between LLM and backend. https://github.com/modelcontextprotocol/servers, server already there.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@types/dotenv": "^6.1.1",
+    "dotenv": "^16.5.0",
+    "kiteconnect": "^5.0.1"
+  }
+}
